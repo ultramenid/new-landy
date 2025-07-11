@@ -29,7 +29,7 @@
        <div class="max-w-6xl mx-auto flex sm:flex-row flex-col gap-5 px-4 mt-12">
             <div class=" sm:w-9/12 w-full  ">
                 <a class="bg-landy px-4 py-1 text-white font-semibold capitalize">{{__('news') }}</a>
-                <div class="flex flex-row  scrollbar-hide overflow-x-scroll h-full   gap-4  snap-x snap-mandatory mt-4">
+                <div class="flex flex-row  h-full   gap-4  snap-x snap-mandatory mt-4">
                     @foreach ($news as $item)
                         <!-- card -->
                         <div class="sm:flex-shrink flex-shrink-0 snap-center sm:6/12 w-full ">
