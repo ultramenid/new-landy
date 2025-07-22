@@ -34,7 +34,7 @@
                         <!-- card -->
                         <div class="sm:flex-shrink flex-shrink-0 snap-center sm:6/12 w-full ">
                             <a href="{{ route('detailnews', [app()->getLocale(), $item->id, $item->slug]) }}"  class="sm:w-7/12 w-full">
-                                <img src="{{ asset('storage/files/photos/'.$item->img) }}"  alt="{{ $item->title }}" class="bg-red-200 h-52 w-full" />
+                                <img src="{{ asset('storage/files/photos/'.$item->img) }}"  alt="{{ $item->title }}" class="bg-red-200 h-52 w-full object-cover object-center" />
                             </a>
 
                             <a href="{{ route('detailnews', [app()->getLocale(), $item->id, $item->slug]) }}" class="md:mt-6 mt-3 font-semibold flex-shrink-0 flex ">{{ $item->title }}</a>
