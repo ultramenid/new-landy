@@ -27,3 +27,13 @@ ul > li::marker {
 .bg-tabs-non {
     background-color: #eeedbd;
 }
+
+a:link {
+  /* color: #E17367; */ /* Remove or comment this out */
+  text-decoration: none;
+}
+
+/* Add this more specific rule at the end of your file */
+p a:link, p a:visited, p a:hover, p a:active {
+  color: #E17367 !important;
+}
