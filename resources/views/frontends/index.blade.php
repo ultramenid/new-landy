@@ -27,7 +27,7 @@
 
        <!-- content -->
        <div class="max-w-6xl mx-auto flex sm:flex-row flex-col gap-5 px-4 mt-12">
-            <div class=" sm:w-9/12 w-full  ">
+            <div class=" w-full  ">
                 <a class="bg-landy px-4 py-1 text-white font-semibold capitalize">{{__('news') }}</a>
                 <div class="flex flex-row  h-full   gap-4  snap-x snap-mandatory mt-4">
                     @foreach ($news as $item)
@@ -44,11 +44,9 @@
                         </div>
                     @endforeach
                 </div>
-                <div class="sm:hidden flex justify-end mt-12">
-                    <a class="text-landy font-light">EXPLORE MORE</a>
-                </div>
+
             </div>
-            <div class="sm:w-3/12 w-full  ">
+            {{-- <div class="sm:w-3/12 w-full  ">
                 <a class="bg-landy px-4 py-1 text-white font-semibold capitalize">Event</a>
                 <div class=" flex flex-col gap-4 mt-4">
                     @foreach ($event as $item)
@@ -60,24 +58,11 @@
                         </div>
                     @endforeach
                 </div>
-                <div class="sm:hidden flex justify-end mt-12">
-                    <a class="text-landy font-light">EXPLORE MORE</a>
-                </div>
-            </div>
+
+            </div> --}}
 
        </div>
-       <div class="max-w-6xl mx-auto flex sm:flex-row flex-col gap-5 px-4 ">
-            <div class=" sm:w-9/12 w-full  ">
-                <div class="sm:flex hidden justify-end mt-12">
-                    <a class="text-landy font-light">EXPLORE MORE</a>
-                </div>
-            </div>
-            <div class="sm:w-3/12 w-full  ">
-                <div class="sm:flex hidden  justify-end mt-12">
-                    <a class="text-landy font-light">EXPLORE MORE</a>
-                </div>
-            </div>
-       </div>
+
        <br>
        <!-- understand how -->
         <div class=" bg-landy-2 mt-12">
