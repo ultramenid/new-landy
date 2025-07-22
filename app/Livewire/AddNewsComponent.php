@@ -30,7 +30,7 @@ class AddNewsComponent extends Component
 
     public function updatedPhoto($photo){
         $extension = $photo->getClientOriginalExtension();
-        if (!in_array($extension, ['png', 'jpeg', 'bmp', 'gif','jpg','webp','mp4', 'avi', '3gp', 'mov', 'm4a'])) {
+        if (!in_array(strtolower($extension), ['png', 'jpeg', 'bmp', 'gif','jpg','webp','mp4', 'avi', '3gp', 'mov', 'm4a'])) {
            $this->reset('photo');
            Toaster::error('File not supported!');
         }
