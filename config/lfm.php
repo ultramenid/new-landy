@@ -60,6 +60,8 @@ return [
                 'image/gif',
                 'application/pdf',
                 'text/plain',
+                'application/vnd.ms-excel',                        // .xls
+                'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', // .xlsx
             ],
         ],
         'image' => [
