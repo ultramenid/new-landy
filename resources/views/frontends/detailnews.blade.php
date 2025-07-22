@@ -24,7 +24,7 @@
             <h1 class="text-xl font-semibold text-landy mb-4">{{$data->title}}</h1>
             <p class="text-landy mb-6 font-light">{{$data->description}}</p>
             <img src="{{ asset('storage/files/photos/'.$data->img) }}" alt="{{ $data->title }}" class="w-full h-full ">
-            <div class="prose max-w-none mt-4 sm:text-base text-sm leading-relaxed">
+            <div class="prose max-w-none mt-4 sm:text-base text-sm leading-relaxed font-light">
                 {!! optional($data)->content !!}
             </div>
 

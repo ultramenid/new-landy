@@ -21,7 +21,7 @@
     <div class="sm:px-0 px-4">
         <div class="max-w-3xl mx-auto bg-white relative  -mt-20 z-20 rounded sm:px-6 px-4 sm:py-12 py-4 ">
             <a class="text-3xl font-semibold capitalize">{{__('accuracy assessment') }}</a>
-            <div class="prose max-w-none mt-4 sm:text-base text-sm leading-relaxed">
+            <div class="prose max-w-none mt-4 sm:text-base text-sm leading-relaxed font-light">
                 {!! optional($data)->content !!}
             </div>
         </div>
