@@ -49,7 +49,7 @@ return [
         'file'  => [
             'folder_name'  => 'files',
             'startup_view' => 'list',
-            'max_size'     => 150000, // size in KB
+            'max_size'     => 1500000, // size in KB
             'thumb' => true,
             'thumb_width' => 80,
             'thumb_height' => 80,
@@ -67,7 +67,7 @@ return [
         'image' => [
             'folder_name'  => 'photos',
             'startup_view' => 'grid',
-            'max_size'     => 150000, // size in KB
+            'max_size'     => 1500000, // size in KB
             'thumb' => true,
             'thumb_width' => 80,
             'thumb_height' => 80,
