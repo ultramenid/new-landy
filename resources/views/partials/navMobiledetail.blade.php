@@ -78,8 +78,20 @@
                     <a href="{{ route('newsnevent', [app()->getLocale()]) }}"  class="mb-4 px-4 inline-block  leading-5 text-white  font-semibold ">news & event<a>
                     <p class="border-b border-gray-300"></p>
                 </div>
-                <div class=" px-4">
-                    <a href="{{ route('downloads', [app()->getLocale()]) }}"  class="mb-4 px-4 inline-block  leading-5 text-white  font-semibold ">{{__('downloads') }}<a>
+                <div class=" px-4" x-data="{open1: false}">
+                    <div class="flex items-center   px-4 mb-2" @click=" open1 =! open1">
+                        <a class=" text-base leading-5 text-white font-semibold ">{{__('downloads') }} </a>
+                        <svg xmlns="http://www.w3.org/2000/svg" :class="{'rotate-180': open1, 'rotate-0': !open1}"  class="w-6 text-white" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <div class="bg-white px-4 py-3 mb-4 flex flex-col space-y-2 rounded" x-show="open1" style="display: none !important;">
+                        <a href="https://platform.indonesia.mapbiomas.org/fogo" class="text-sm text-landy mr-6">{{__('landsat mosaics') }}</a>
+                        <a href="{{ route('collectionmap', [app()->getLocale()]) }}" class="text-sm text-landy mr-6">{{__('map collection') }}</a>
+                        <a href="{{ route('infographics', [app()->getLocale()]) }}" class="text-sm text-landy mr-6">{{__('infographics') }}</a>
+                        <a href="{{ route('legendcode', [app()->getLocale()]) }}" class="text-sm text-landy mr-6">{{__('legend code') }}</a>
+                        <a href="{{ route('murals', [app()->getLocale()]) }}" class="text-sm text-landy mr-6">{{__('mural maps') }}</a>
+                    </div>
                     <p class="border-b border-gray-300"></p>
                 </div>
 

@@ -84,8 +84,17 @@
             <a href="{{ route('newsnevent', app()->getlocale() )}}" class="text-white font-bold">{{__('news & event') }}</a>
         </div>
 
-        <div class="flex flex-col">
+        {{-- <div class="flex flex-col">
             <a href="{{ route('downloads', app()->getlocale() )}}"  class="font-bold text-white">{{__('downloads') }}</a>
+        </div> --}}
+
+         <div class="flex flex-col">
+            <a class="text-white font-bold">downloads</a>
+            <a href="{{ route('landsatmosaics', app()->getlocale() )}}" class="text-white text-sm font-light mt-2">{{__('landsat mosaics') }}</a>
+            <a href="{{ route('collectionmap', app()->getlocale() )}}" class="text-white text-sm font-light">{{__('map collection') }}</a>
+            <a href="{{ route('infographics', app()->getlocale() )}}" class="text-white text-sm font-light">{{__('infographics') }}</a>
+            <a href="{{ route('legendcode', app()->getlocale() )}}" class="text-white text-sm font-light">{{__('legend code') }}</a>
+            <a href="{{ route('murals', app()->getlocale() )}}" class="text-white text-sm font-light">{{__('mural maps') }}</a>
         </div>
 
     </div>

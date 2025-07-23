@@ -24,7 +24,6 @@
                 <a href="{{ route('termsofuse', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('terms of use') }}</a>
                 <a href="{{ route('statistics', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('statistics') }}</a>
                 <a href="{{ route('accuracy-assessment', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('accuracy assessment') }}</a>
-                <a href="{{ route('infographics', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('infographics') }}</a>
             </div>
         </div>
 
@@ -43,7 +42,24 @@
             </div>
         </div>
         <a href="{{ route('newsnevent', [app()->getLocale()]) }}" class="text-landy">{{__('news & event') }}</a>
-        <a href="{{ route('downloads', [app()->getLocale()]) }}" class="text-landy">{{__('downloads') }}</a>
+        {{-- <a href="{{ route('downloads', [app()->getLocale()]) }}" class="text-landy">{{__('downloads') }}</a> --}}
+        <div class="flex-col flex" x-data="{pages:false}">
+            <a @click="pages = ! pages" @click.away="pages=false"  class=" text-landy cursor-pointer inline-flex   items-center " >{{__('downloads') }}
+                <svg xmlns="http://www.w3.org/2000/svg" :class="{'rotate-180': pages, 'rotate-0': !pages}" class="w-4 ml-1 -mb-1 transition-transform duration-200 transform" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            <div class="absolute mt-8 z-20 bg-white px-2 py-2 flex flex-col  w-52 border-landy border-b text-landy" x-show="pages" x-cloak style="display: none !important">
+                <a href="{{ route('landsatmosaics', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{_('landsat mosaics') }}</a>
+                <a href="{{ route('collectionmap', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('map collection') }}</a>
+                <a href="{{ route('infographics', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('infographics') }}</a>
+                <a href="{{ route('legendcode', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('legend code') }}</a>
+                <a href="{{ route('murals', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('mural maps') }}</a>
+
+
+
+            </div>
+        </div>
     </div>
     </div>
 
