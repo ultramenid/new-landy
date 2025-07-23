@@ -23,14 +23,14 @@ class ListMural extends Component
     public function delete($id){
 
         //load data to delete function
-        $dataDelete = DB::table('mural')->where('id', $id)->first();
+        $dataDelete = DB::table('murals')->where('id', $id)->first();
         $this->deleteName = $dataDelete->titleID;
         $this->deleteID = $dataDelete->id;
 
         $this->deleter = true;
     }
     public function deleting($id){
-        DB::table('mural')->where('id', $id)->delete();
+        DB::table('murals')->where('id', $id)->delete();
 
         Toaster::success('Succesfully delete news');
 

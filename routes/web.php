@@ -74,6 +74,9 @@ Route::middleware([checkSession::class])->group(function () {
     Route::get('/cms/pagecollectionmap', [DownloadsController::class, 'pagecollectionmap']);
     Route::get('/cms/cmsmural', [MuralController::class, 'cmsmural']);
     Route::get('/cms/addmural', [MuralController::class, 'addmural']);
+    Route::get('/cms/editmural/{id}', [MuralController::class, 'edit']);
+    Route::get('/cms/editinfographic/{id}', [InfographicController::class, 'edit']);
+
 
     Route::group(['prefix' => '/cms/fire-filemanager'], function () {
         \UniSharp\LaravelFilemanager\Lfm::routes();

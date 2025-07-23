@@ -27,4 +27,11 @@ class InfographicController extends Controller
         $description = "Bagian dari gerakan global MapBiomas Network untuk menghasilkan peta tutupan dan penggunaan lahan tahunan.";
         return view('frontends.infographics', compact('title', 'description'));
     }
+
+    public function edit($id){
+        $title = 'MapBiomas Landy - edit mural';
+        $nav = 'infographic';
+        $idInfographic = $id;
+        return view('backends.editInfographic', compact('title', 'nav', 'idInfographic'));
+    }
 }

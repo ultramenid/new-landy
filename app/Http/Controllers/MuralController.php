@@ -26,4 +26,11 @@ class MuralController extends Controller
         $description = "Bagian dari gerakan global MapBiomas Network untuk menghasilkan peta tutupan dan penggunaan lahan tahunan.";
         return view('frontends.mural', compact('title', 'description'));
     }
+
+    public function edit($id){
+        $title = 'MapBiomas Landy - edit mural';
+        $nav = 'mural';
+        $idMural = $id;
+        return view('backends.editMural', compact('title', 'nav', 'idMural'));
+    }
 }
