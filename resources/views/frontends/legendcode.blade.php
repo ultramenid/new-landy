@@ -28,10 +28,12 @@
                         @if (app()->getLocale() == 'id')
                             <li>Koleksi 1 [<a href="{{ asset('assets/legendcode/Kode Legenda - Legend Code.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
                             <li>Koleksi 2 [<a href="{{ asset('assets/legendcode/Indonesia Coll 2_Legend Code.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
+                            <li>Koleksi 3 [<a href="{{ asset('assets/legendcode/Kode Legenda-Legend Code.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
 
                         @else
                             <li>Collection 1 [<a href="{{ asset('assets/legendcode/Kode Legenda - Legend Code.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
                             <li>Collection 2 [<a href="{{ asset('assets/legendcode/Indonesia Coll 2_Legend Code.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
+                            <li>Collection 3 [<a href="{{ asset('assets/legendcode/Kode Legenda-Legend Code.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
                         @endif
 
                     </ul>
@@ -42,9 +44,11 @@
                         @if (app()->getLocale() == 'id')
                             <li>Collection 1 [<a href="{{ asset('assets/legendcode/Deskripsi Legenda-Koleksi 1.0.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
                             <li>Collection 2 [<a href="{{ asset('assets/legendcode/Indonesia Coll 2_Legend Description_BA.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
+                            <li>Collection 3 [<a href="{{ asset('assets/legendcode/Legend description EN.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
                         @else
                             <li>Collection 1 [<a href="{{ asset('assets/legendcode/Legend Description Collection 1.0.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
                             <li>Collection 2 [<a href="{{ asset('assets/legendcode/Indonesia Coll 2_Legend Description_EN.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
+                            <li>Collection 3 [<a href="{{ asset('assets/legendcode/Legend description EN.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
                         @endif
 
                     </ul>
