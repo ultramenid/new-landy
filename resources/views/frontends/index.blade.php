@@ -68,7 +68,7 @@
         <div class=" bg-landy-2 mt-12">
             <div class=" z-20 max-w-6xl mx-auto py-16 px-4" >
                 <div class=" mb-8 w-full sm:justify-start justify-center items-center flex">
-                    <a class="bg-landy p-2 text-white font-semibold sm:text-base text-xs mb-8 sm:text-left text-center ">{{__('How Mapbiomas Fire Works') }}</a>
+                    <a class="bg-landy p-2 text-white font-semibold sm:text-base text-xs mb-8 sm:text-left text-center ">{{__('How Mapbiomas Landy Works') }}</a>
                 </div>
 
                 <div class="flex sm:flex-row flex-col items-center space-y-4 sm:space-x-8 space-x-0 mt-8">
