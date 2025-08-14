@@ -12,7 +12,7 @@
     <div class="sm:flex hidden gap-10 items-center select-none">
         <a href="{{ route('about', [app()->getLocale()]) }}" class="text-landy">{{__('about') }}</a>
         <a href="{{ route('faq', [app()->getLocale()]) }}" class="text-landy">FAQ</a>
-        <a href="{{ route('contacts', [app()->getLocale()]) }}" class="text-landy">{{__('contact') }}</a>
+        {{-- <a href="{{ route('contacts', [app()->getLocale()]) }}" class="text-landy">{{__('contact') }}</a> --}}
         <div class="flex-col flex" x-data="{pages:false}">
             <a @click="pages = ! pages" @click.away="pages=false"  class=" text-landy cursor-pointer inline-flex   items-center " >{{__('map & data') }}
                 <svg xmlns="http://www.w3.org/2000/svg" :class="{'rotate-180': pages, 'rotate-0': !pages}" class="w-4 ml-1 -mb-1 transition-transform duration-200 transform" viewBox="0 0 20 20" fill="currentColor">
