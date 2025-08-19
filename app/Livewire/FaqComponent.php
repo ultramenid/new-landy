@@ -4,10 +4,12 @@ namespace App\Livewire;
 
 use Illuminate\Support\Facades\DB;
 use Livewire\Component;
+use Livewire\WithPagination;
 use Masmerise\Toaster\Toaster;
 
 class FaqComponent extends Component
 {
+    use WithPagination;
     public $deleteName, $deleteID, $deleter;
     public  $paginate = 10, $query = '';
      // refresh page on search
