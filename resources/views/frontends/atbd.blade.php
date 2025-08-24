@@ -22,7 +22,7 @@
         <div x-data="{ tabs: 'karakteristik' }" class="max-w-3xl  mx-auto bg-white relative  -mt-20 z-20 rounded sm:px-6 px-4 sm:py-12 py-4 border-b border-landy min-h-[40vh] text-[15px]">
             <a class="text-3xl font-semibold capitalize">Methodology & ATBD</a>
             <p class="mt-4 sm:text-base text-sm">{{__('The sections below describe the characteristics, networks, and a brief summary of the methodology applied by MapBiomas Indonesia to produce a time-series of land-use and land-cover data showing annual transitions over the collection period.') }}</p>
-            <p class="mt-4">{{__('The applied methodology is presented in the') }} <a href="{{ asset('assets/files/ATBD General Mapbiomas ID Col 2.0-2.pdf') }}" class="underline font-bold">Algorithm Theoretical Basis Documents (ATBD)</a> </p>
+            <p class="mt-4">{{__('The applied methodology is presented in the') }} <a href="{{ asset('assets/files/ATBD MapBiomas ID Col 3.0.pdf') }}" class="underline font-bold">Algorithm Theoretical Basis Documents (ATBD)</a> </p>
             <div class="relative z-10 max-w-6xl mx-auto mt-12" >
                 <!-- Tabs -->
                 <div class="flex gap-2 items-center justify-between select-none">
