@@ -45,7 +45,7 @@ Route::middleware([setLanguage::class])->group(function () {
         Route::get('/legendcode', [DownloadsController::class, 'legendcode'])->name('legendcode');
         Route::get('/murals', [MuralController::class, 'index'])->name('murals');
         Route::get('/newnevent', [NewsController::class, 'newsnevent'])->name('newsnevent');
-        Route::get('/factsheet', [NewsController::class, 'PagesController'])->name('newsnevent');
+        Route::get('/factsheet', [NewsController::class, 'PagesController'])->name('factsheet');
 
 
     });
