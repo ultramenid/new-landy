@@ -94,6 +94,7 @@
                         <a href="{{ route('infographics', [app()->getLocale()]) }}" class="text-sm text-landy mr-6">{{__('infographics') }}</a>
                         <a href="{{ route('legendcode', [app()->getLocale()]) }}" class="text-sm text-landy mr-6">{{__('legend code') }}</a>
                         <a href="{{ route('murals', [app()->getLocale()]) }}" class="text-sm text-landy mr-6">{{__('mural maps') }}</a>
+                        <a href="{{ route('factsheet', [app()->getLocale()]) }}" class="text-sm text-landy mr-6">{{__('factsheet') }}</a>
                     </div>
                     <p class="border-b border-gray-300"></p>
                 </div>

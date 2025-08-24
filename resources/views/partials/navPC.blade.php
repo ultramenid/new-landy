@@ -55,6 +55,7 @@
                 <a href="{{ route('infographics', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('infographics') }}</a>
                 <a href="{{ route('legendcode', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('legend code') }}</a>
                 <a href="{{ route('murals', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('mural maps') }}</a>
+                <a href="{{ route('factsheet', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('factsheet') }}</a>
 
 
 
