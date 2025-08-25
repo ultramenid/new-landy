@@ -5,6 +5,7 @@ use App\Http\Controllers\ATBDController;
 use App\Http\Controllers\ContactsController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DownloadsController;
+use App\Http\Controllers\FactsheetController;
 use App\Http\Controllers\FaqController;
 use App\Http\Controllers\GEEControler;
 use App\Http\Controllers\GlosariumController;
@@ -45,7 +46,7 @@ Route::middleware([setLanguage::class])->group(function () {
         Route::get('/legendcode', [DownloadsController::class, 'legendcode'])->name('legendcode');
         Route::get('/murals', [MuralController::class, 'index'])->name('murals');
         Route::get('/newnevent', [NewsController::class, 'newsnevent'])->name('newsnevent');
-        Route::get('/factsheet', [NewsController::class, 'PagesController'])->name('factsheet');
+        Route::get('/factsheet', [FactsheetController::class, 'index'])->name('factsheet');
 
 
     });
@@ -77,6 +78,7 @@ Route::middleware([checkSession::class])->group(function () {
     Route::get('/cms/addmural', [MuralController::class, 'addmural']);
     Route::get('/cms/editmural/{id}', [MuralController::class, 'edit']);
     Route::get('/cms/editinfographic/{id}', [InfographicController::class, 'edit']);
+    Route::get('/cms/pagefactsheet', [FactsheetController::class, 'cmsfactsheet']);
 
 
     Route::group(['prefix' => '/cms/fire-filemanager'], function () {

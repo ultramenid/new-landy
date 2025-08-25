@@ -48,6 +48,12 @@ class NewsController extends Controller
         ->first();
     }
 
+    public function factsheet(){
+        $title = 'MapBiomas Landy - Factsheet';
+        $description = "Bagian dari gerakan global MapBiomas Network untuk menghasilkan peta tutupan dan penggunaan lahan tahunan.";
+        return view('frontends.factsheet', compact('title', 'description'));
+    }
+
 
 
     public function detailnews($locale, $id, $slug){

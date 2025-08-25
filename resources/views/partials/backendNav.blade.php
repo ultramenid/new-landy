@@ -36,6 +36,7 @@
                     <a  href="{{url('/cms/pagerefmap')}}" class="hover:text-newgray-900 dark:hover:text-gray-300">references map</a>
                     <a  href="{{url('/cms/pagelandsatmosaics')}}" class="hover:text-newgray-900 dark:hover:text-gray-300">landsat mosaic</a>
                     <a  href="{{url('/cms/pagecollectionmap')}}" class="hover:text-newgray-900 dark:hover:text-gray-300">map collection</a>
+                    <a  href="{{url('/cms/pagefactsheet')}}" class="hover:text-newgray-900 dark:hover:text-gray-300">factsheet</a>
 
                 </div>
             </div>
