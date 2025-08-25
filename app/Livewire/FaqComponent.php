@@ -32,10 +32,7 @@ class FaqComponent extends Component
     }
     public function deleting($id){
         DB::table('faq')->where('id', $id)->delete();
-
-        Toaster::success('Succesfully delete news');
-
-
+        Toaster::success('Succesfully delete faq');
         $this->closeDelete();
     }
     public function getFaq(){

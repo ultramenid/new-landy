@@ -11,7 +11,8 @@
         <a href="{{ route('index', [app()->getLocale()]) }}"><img src="{{ asset('assets/logo-landy.png') }}" alt="Mapbiomas Fire Indonesia" class="sm:h-12 h-10 select-none"></a>
     <div class="sm:flex hidden gap-10 items-center select-none">
         <a href="{{ route('about', [app()->getLocale()]) }}" class="text-landy">{{__('about') }}</a>
-        <a href="{{ route('faq', [app()->getLocale()]) }}" class="text-landy">FAQ</a>
+        {{-- <a href="{{ route('faq', [app()->getLocale()]) }}" class="text-landy">FAQ</a> --}}
+        <a href="#" class="text-landy">FAQ</a>
         {{-- <a href="{{ route('contacts', [app()->getLocale()]) }}" class="text-landy">{{__('contact') }}</a> --}}
         <div class="flex-col flex" x-data="{pages:false}">
             <a @click="pages = ! pages" @click.away="pages=false"  class=" text-landy cursor-pointer inline-flex   items-center " >{{__('map & data') }}

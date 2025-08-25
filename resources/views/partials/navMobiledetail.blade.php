@@ -40,7 +40,8 @@
                     <p class="border-b border-gray-300"></p>
                 </div>
                 <div class=" px-4">
-                    <a href="{{ route('faq', [app()->getLocale()]) }}"  class="mb-4 px-4 inline-block  leading-5 text-white  font-semibold ">FAQ<a>
+                    {{-- <a href="{{ route('faq', [app()->getLocale()]) }}"  class="mb-4 px-4 inline-block  leading-5 text-white  font-semibold ">FAQ<a> --}}
+                    <a href="#"  class="mb-4 px-4 inline-block  leading-5 text-white  font-semibold ">FAQ<a>
                     <p class="border-b border-gray-300"></p>
                 </div>
                 <div class=" px-4" x-data="{open1: false}">
