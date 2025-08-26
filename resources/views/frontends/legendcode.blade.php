@@ -29,11 +29,13 @@
                             <li>Koleksi 1 [<a href="{{ asset('assets/legendcode/Kode Legenda - Legend Code.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
                             <li>Koleksi 2 [<a href="{{ asset('assets/legendcode/Indonesia Coll 2_Legend Code.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
                             <li>Koleksi 3 [<a href="{{ asset('assets/legendcode/Kode Legenda-Legend Code.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
+                            <li>Koleksi 4 [<a href="{{ asset('assets/legendcode/Integration and Layers MB Indonesia - Col 4 - ID.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
 
                         @else
                             <li>Collection 1 [<a href="{{ asset('assets/legendcode/Kode Legenda - Legend Code.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
                             <li>Collection 2 [<a href="{{ asset('assets/legendcode/Indonesia Coll 2_Legend Code.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
                             <li>Collection 3 [<a href="{{ asset('assets/legendcode/Kode Legenda-Legend Code.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
+                            <li>Collection 4 [<a href="{{ asset('assets/legendcode/Integration and Layers MB Indonesia - Col 4 - EN .pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
                         @endif
 
                     </ul>
