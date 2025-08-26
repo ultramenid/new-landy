@@ -21,7 +21,7 @@
                     </svg>
                 </a>
             <div class="absolute mt-8 z-20 bg-white px-2 py-2 flex flex-col  w-56 border-landy border-b text-landy" x-show="pages" x-cloak style="display: none !important">
-                <a href="https://platform.indonesia.mapbiomas.org/" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('platform/map') }}</a>
+                <a href="https://plataforma.mapbiomas.org/coverage/coverage_lclu?t[regionKey]=indonesia" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('platform/map') }}</a>
                 <a href="{{ route('termsofuse', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('terms of use') }}</a>
                 <a href="{{ route('statistics', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('statistics') }}</a>
                 <a href="{{ route('accuracy-assessment', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('accuracy assessment') }}</a>
@@ -56,7 +56,7 @@
                 <a href="{{ route('infographics', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('infographics') }}</a>
                 <a href="{{ route('legendcode', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('legend code') }}</a>
                 <a href="{{ route('murals', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('mural maps') }}</a>
-                <a href="{{ route('factsheet', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('factsheet') }}</a>
+                <a href="{{ route('factsheet', [app()->getLocale()]) }}" class="text-sm mr-6 hover:bg-gray-200 p-1">{{__('fact sheet') }}</a>
 
 
 

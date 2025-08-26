@@ -19,7 +19,7 @@
         <img src="{{ asset('assets/landy-hero.jpeg') }}" alt="Mapbiomas Fire - Indonesia" class="sm:h-[70vh] h-[40vh] w-full object-top object-cover relative">
         <div class="absolute sm:bottom-32 bottom-16 sm:left-[22rem] left-5">
             <p class="text-white sm:text-5xl text-4xl font-black mb-6 leading normal sm:w-7/12 w-full">{{__('Learning from the Past for the Future') }}</p>
-            <a href="https://platform.indonesia.mapbiomas.org/" class=" bg-landy text-white  px-4 py-1 font-semibold">{{__('Access The Platform') }}</a>
+            <a href="https://plataforma.mapbiomas.org/coverage/coverage_lclu?t[regionKey]=indonesia" class=" bg-landy text-white  px-4 py-1 font-semibold">{{__('Access The Platform') }}</a>
 
         </div>
       </div>

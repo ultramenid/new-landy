@@ -40,7 +40,8 @@
                     <p class="border-b border-gray-300"></p>
                 </div>
                 <div class=" px-4">
-                    <a href="{{ route('faq', [app()->getLocale()]) }}"  class="mb-4 px-4 inline-block  leading-5 text-white  font-semibold ">FAQ<a>
+                    {{-- <a href="{{ route('faq', [app()->getLocale()]) }}"  class="mb-4 px-4 inline-block  leading-5 text-white  font-semibold ">FAQ<a> --}}
+                    <a href="#"  class="mb-4 px-4 inline-block  leading-5 text-white  font-semibold ">FAQ<a>
                     <p class="border-b border-gray-300"></p>
                 </div>
                 <div class=" px-4" x-data="{open1: false}">
@@ -51,7 +52,7 @@
                         </svg>
                     </div>
                     <div class="bg-white px-4 py-3 mb-4 flex flex-col space-y-2 rounded" x-show="open1" style="display: none !important;">
-                        <a href="https://platform.indonesia.mapbiomas.org/fogo" class="text-sm text-landy mr-6">{{__('platform/map') }}</a>
+                        <a href="https://plataforma.mapbiomas.org/coverage/coverage_lclu?t[regionKey]=indonesia" class="text-sm text-landy mr-6">{{__('platform/map') }}</a>
                         <a href="{{ route('statistics', [app()->getLocale()]) }}" class="text-sm text-landy mr-6">{{__('statistics') }}</a>
                         <a href="{{ route('termsofuse', [app()->getLocale()]) }}" class="text-sm text-landy mr-6">{{__('terms of use') }}</a>
                         <a href="{{ route('accuracy-assessment', [app()->getLocale()]) }}" class="text-sm text-landy mr-6">{{__('accuracy assessment') }}</a>
@@ -77,10 +78,6 @@
                     <a href="{{ route('newsnevent', [app()->getLocale()]) }}"  class="mb-4 px-4 inline-block  leading-5 text-white  font-semibold ">news & event<a>
                     <p class="border-b border-gray-300"></p>
                 </div>
-                <div class=" px-4">
-                    <a href="{{ route('downloads', [app()->getLocale()]) }}"  class="mb-4 px-4 inline-block  leading-5 text-white  font-semibold ">{{__('downloads') }}<a>
-                    <p class="border-b border-gray-300"></p>
-                </div>
                 <div class=" px-4" x-data="{open1: false}">
                     <div class="flex items-center   px-4 mb-2" @click=" open1 =! open1">
                         <a class=" text-base leading-5 text-white font-semibold ">{{__('downloads') }} </a>
@@ -89,12 +86,12 @@
                         </svg>
                     </div>
                     <div class="bg-white px-4 py-3 mb-4 flex flex-col space-y-2 rounded" x-show="open1" style="display: none !important;">
-                        <a href="https://platform.indonesia.mapbiomas.org/fogo" class="text-sm text-landy mr-6">{{__('landsat mosaics') }}</a>
+                        <a href="{{ route('landsatmosaics', [app()->getLocale()]) }}" class="text-sm text-landy mr-6">{{__('landsat mosaics') }}</a>
                         <a href="{{ route('collectionmap', [app()->getLocale()]) }}" class="text-sm text-landy mr-6">{{__('map collection') }}</a>
                         <a href="{{ route('infographics', [app()->getLocale()]) }}" class="text-sm text-landy mr-6">{{__('infographics') }}</a>
                         <a href="{{ route('legendcode', [app()->getLocale()]) }}" class="text-sm text-landy mr-6">{{__('legend code') }}</a>
                         <a href="{{ route('murals', [app()->getLocale()]) }}" class="text-sm text-landy mr-6">{{__('mural maps') }}</a>
-                        <a href="{{ route('factsheet', [app()->getLocale()]) }}" class="text-sm text-landy mr-6">{{__('factsheet') }}</a>
+                        <a href="{{ route('factsheet', [app()->getLocale()]) }}" class="text-sm text-landy mr-6">{{__('fact sheet') }}</a>
                     </div>
                     <p class="border-b border-gray-300"></p>
                 </div>
