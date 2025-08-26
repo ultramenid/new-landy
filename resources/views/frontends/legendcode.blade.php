@@ -52,7 +52,7 @@
                             <li>Collection 1 [<a href="{{ asset('assets/legendcode/Legend Description Collection 1.0.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
                             <li>Collection 2 [<a href="{{ asset('assets/legendcode/Indonesia Coll 2_Legend Description_EN.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
                             <li>Collection 3 [<a href="{{ asset('assets/legendcode/Legend_description_EN.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
-                            <li>Collection 3 [<a href="{{ asset('assets/legendcode/Integration and Layers MB Indonesia - Col 4 - pdf Legend DESCRIP EN.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
+                            <li>Collection 4 [<a href="{{ asset('assets/legendcode/Integration and Layers MB Indonesia - Col 4 - pdf Legend DESCRIP EN.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
                         @endif
 
                     </ul>
