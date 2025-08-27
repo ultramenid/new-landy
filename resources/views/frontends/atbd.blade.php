@@ -67,7 +67,7 @@
 
                 {{-- jejaring --}}
                 <div class="" x-cloak style="display: none !important; color: #7f8282;" x-show="tabs === 'jejaring'">
-                    <p >{!!__('Following a series of discussions with technical experts from within Indonesia and from MapBiomas Brazil, the Mapiomas Indonesia team decided to classify 11 types of land-use and land-cover to be mapped, consisting 5 classes for basic themes and 6 classes for cross-cut themes.') !!}</p>
+                    <p >{!!__('Following a series of discussions with technical experts from within Indonesia and from MapBiomas Brazil, the Mapiomas Indonesia team decided to classify 13 types of land-use and land-cover to be mapped, consisting 5 classes for basic themes and 8 classes for cross-cut themes.') !!}</p>
                     <p class="mt-4">
                         {!!__('The Indonesia team was divided into the core team and the regional team. The analysis for the basic themes was under the regional team’s responsibility being done by 9 of the civil society organizations. Meanwhile, the cross-cut themes were handled by the Auriga Nusantara and Woods & Wayside International.') !!}
                     </p>
@@ -89,7 +89,7 @@
                             </svg>
                         </div>
                         <div x-show="mosaik" x-cloak style="display: none !important; color: #7f8282;" class="py-2">
-                            <p>{!!__('MapBiomas Mosaics are created from a collection of all available Landsat scenes within a particular unit of a grid during a certain period. From these, the best images for each pixel were selected to be combined into a Landsat grid. Each unit, or module, of the grid covered an area of 1o latitude x 1.5o&nbsp; longitude with a total of 286 modules to cover all of Indonesia. A grid-based approach was run for every year during 2000-2022 to create the mosaics. The process used to create the MapBiomas Mosaics is briefly illustrated below:') !!}</p>
+                            <p>{!!__('MapBiomas Mosaics are created from a collection of all available Landsat scenes within a particular unit of a grid during a certain period. From these, the best images for each pixel were selected to be combined into a Landsat grid. Each unit, or module, of the grid covered an area of 1<sup>o</sup> latitude x 1.5<sup>o</sup>; longitude with a total of 286 modules to cover all of Indonesia. A grid-based approach was run for every year during 2000-2022 to create the mosaics. The process used to create the MapBiomas Mosaics is briefly illustrated below:') !!}</p>
 
                              @if (app()->getLocale() == 'id')
                                 <img class="mt-4" src="{{ asset('assets/atbd/1-1 mosaic-for-1-year_id.jpg') }}" alt="" width="100%" height="100%" />

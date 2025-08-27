@@ -15,7 +15,7 @@
     {{-- heroPage --}}
 
     <div class="">
-        <img src="{{ asset('assets/landy-hero.jpeg') }}" alt="Mapbiomas Indonesia - Fire" class=" mt-2 z-10 sm:h-[45vh] h-[30vh] w-full object-top object-cover">
+        <img src="{{ asset('assets/landy-hero.jpeg') }}" alt="MapBiomas Indonesia - Landy" class=" mt-2 z-10 sm:h-[45vh] h-[30vh] w-full object-top object-cover">
     </div>
 
     <div class="sm:px-0 px-4" x-data="{ open: [] }">

@@ -16,7 +16,7 @@
 
      <!-- hero -->
       <div class="relative mt-2">
-        <img src="{{ asset('assets/landy-hero.jpeg') }}" alt="Mapbiomas Fire - Indonesia" class="sm:h-[70vh] h-[40vh] w-full object-top object-cover relative">
+        <img src="{{ asset('assets/landy-hero.jpeg') }}" alt="Mapbiomas Landy - Indonesia" class="sm:h-[70vh] h-[40vh] w-full object-top object-cover relative">
         <div class="absolute sm:bottom-32 bottom-16 sm:left-[22rem] left-5">
             <p class="text-white sm:text-5xl text-4xl font-black mb-6 leading normal sm:w-7/12 w-full">{{__('Learning from the Past for the Future') }}</p>
             <a href="https://plataforma.mapbiomas.org/coverage/coverage_lclu?t[regionKey]=indonesia" class=" bg-landy text-white  px-4 py-1 font-semibold">{{__('Access The Platform') }}</a>
@@ -68,13 +68,13 @@
         <div class=" bg-landy-2 mt-12">
             <div class=" z-20 max-w-6xl mx-auto py-16 px-4" >
                 <div class=" mb-8 w-full sm:justify-start justify-center items-center flex">
-                    <a class="bg-landy p-2 text-white font-semibold sm:text-base text-xs mb-8 sm:text-left text-center ">{{__('How Mapbiomas Landy Works') }}</a>
+                    <a class="bg-landy p-2 text-white font-semibold sm:text-base text-xs mb-8 sm:text-left text-center ">{{__('Understand How MapBiomas Indonesia Works') }}</a>
                 </div>
 
                 <div class="flex sm:flex-row flex-col items-center space-y-4 sm:space-x-8 space-x-0 mt-8">
                     <a href="" class="text-center">
                         <img loading="lazy" src="{{ asset('assets/methodology/MapBiomas_1-Mapbiomas_Mosaic.png') }}" alt="" class="w-16 h-16 inline-flex justify-center">
-                        <p style="color: #7f8282;" class="mt-2 font-semibold "> {{__('Mosaic Mapbiomas')}}</p>
+                        <p style="color: #7f8282;" class="mt-2 font-semibold "> {{__('Mosaic MapBiomas')}}</p>
                     </a>
                     <div class="text-center">
                         <img loading="lazy" src="{{ asset('assets/methodology/MapBiomas-Panah-Lurus.png') }}" alt="" class="w-12 -mt-6 sm:block hidden" >
