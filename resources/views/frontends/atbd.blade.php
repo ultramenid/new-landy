@@ -25,7 +25,7 @@
             <p class="mt-4">{{__('The applied methodology is presented in the') }} <a href="{{ asset('assets/files/ATBD MapBiomas ID Col 3.0.pdf') }}" class="underline font-bold">Algorithm Theoretical Basis Documents (ATBD)</a> </p>
             <div class="relative z-10 max-w-6xl mx-auto mt-12" >
                 <!-- Tabs -->
-                <div class="flex gap-2 items-center justify-between select-none">
+                <div class="grid sm:grid-cols-3 grid-cols-1 sm:gap-4 gap-2 ">
                     <div :class="tabs === 'karakteristik' ? 'bg-tabs-active' : 'bg-tabs-non'" class="py-4 px-6 w-full cursor-pointer" @click="tabs = 'karakteristik'">
                         <a  class="flex justify-center font-bold  text-[#62a5bc] text-sm">
                             {{__('General Characteristics') }}
