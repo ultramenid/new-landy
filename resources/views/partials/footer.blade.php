@@ -95,6 +95,7 @@
             <a href="{{ route('infographics', app()->getlocale() )}}" class="text-white text-sm font-light">{{__('infographics') }}</a>
             <a href="{{ route('legendcode', app()->getlocale() )}}" class="text-white text-sm font-light">{{__('legend code') }}</a>
             <a href="{{ route('murals', app()->getlocale() )}}" class="text-white text-sm font-light">{{__('mural maps') }}</a>
+            <a href="{{ route('factsheet', app()->getlocale() )}}" class="text-white text-sm font-light">{{__('fact sheets') }}</a>
         </div>
 
     </div>
