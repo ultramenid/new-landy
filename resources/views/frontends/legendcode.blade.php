@@ -23,7 +23,7 @@
             <a class="text-3xl font-semibold capitalize">{{__('legend code') }}</a>
             <div class="flex mt-4 w-full">
                 <div class="bg-landy-2 w-full py-4 px-4 text-center">
-                    <a class="font-semibold text-xl"> Code</a>
+                    <a class="font-semibold text-xl"> {{__('Code') }}</a>
                     <ul class="list-number mt-3">
                         @if (app()->getLocale() == 'id')
                             <li>Koleksi 1 [<a href="{{ asset('assets/legendcode/Kode Legenda - Legend Code.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
@@ -41,7 +41,7 @@
                     </ul>
                 </div>
                 <div class="bg-landy-2 w-full py-4 px-4 text-center">
-                    <a class="font-semibold text-xl"> Description</a>
+                    <a class="font-semibold text-xl"> {{__('Description') }}</a>
                     <ul class="list-number mt-3 ">
                         @if (app()->getLocale() == 'id')
                             <li>Collection 1 [<a href="{{ asset('assets/legendcode/Deskripsi Legenda-Koleksi 1.0.pdf') }}" class="underline cursor-pointer text-orange-600">Link</a>]</li>
